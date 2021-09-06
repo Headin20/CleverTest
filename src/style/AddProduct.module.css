@@ -1,0 +1,23 @@
+.card{
+    width: 208px;
+    height: 208px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow:5px 3px 3px #555;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.card:hover{
+    background-color: #fff;
+    box-shadow: none;
+    transition: .4s;
+}
+
+.plus{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+}

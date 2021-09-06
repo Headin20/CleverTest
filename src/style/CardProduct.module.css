@@ -1,0 +1,61 @@
+.card{
+    width: 200px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow:5px 3px 3px #555;
+    position: relative;
+    padding: 5px;
+}
+.name{
+    height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+}
+.image{
+    height: 200px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.description{
+    height: 90px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.prise{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button{
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid lightslategray;
+    width: 70px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.btn button:hover{
+    color: #fff;
+    background-color: lightslategray;
+    transition: .3s;
+}

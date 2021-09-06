@@ -1,0 +1,12 @@
+.serv ul{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serv ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    flex: 0 0 33.3%;
+}
